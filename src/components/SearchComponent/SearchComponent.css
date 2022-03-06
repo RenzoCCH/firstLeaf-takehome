@@ -1,0 +1,43 @@
+.searchComponent {
+  padding: 16px;
+  position: relative;
+  width: 80%;
+  margin: 16px auto;
+}
+.searchComponent input {
+  font-family: inherit;
+  font-size: 80px;
+  line-height: 1;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.05em 0;
+  color: #222222;
+  border: none;
+  border-bottom: 2px solid;
+  background: transparent;
+  border-radius: 0;
+  -webkit-appearance: none;
+  outline: none;
+  width: 100%;
+  margin: 16px;
+}
+.searchComponent input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.searchResults {
+  list-style-type: none;
+  box-shadow: 10px 10px 5px #888888;
+  padding: 8px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  background: white;
+  text-align: left;
+  font-size: 80px;
+}
+.searchResults a {
+    outline: none;
+    color: #222222;
+    text-decoration: none;
+}

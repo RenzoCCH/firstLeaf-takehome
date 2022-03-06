@@ -1,0 +1,10 @@
+.card {
+    box-shadow: 10px 10px 5px #888888;
+    padding: 16px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 16px auto;
+}
+.card img {
+    max-width: 200px;
+}
